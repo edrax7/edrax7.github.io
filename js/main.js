@@ -22,7 +22,7 @@ $(function() {
 */
 
 
-
+/*
 //below is code for throwing up name and age boxes. The "prompt" command puts up a prompt box on the web page to capture data
 var firstName = prompt("What is your first name?");
 var lastName = prompt("What is your last name?");
@@ -50,7 +50,7 @@ if (userAge >= 18) {
 }
 
 
-
+*/
 
 
 // below is code for changing the CSS in the web page
