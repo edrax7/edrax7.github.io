@@ -1,0 +1,91 @@
+
+body {
+	background-image: url(../images/stag.jpg); /* the "../" tells
+	the code to go back out of the CSS folder to the parent
+	folder and then it looks for the "images" folder */
+	background-size: cover; /* cover is a new term in CSS
+	and hence it's coloured white here as Sublime does not
+	recognise it */
+	font-family: Helvetica, Arial, sans-serif; /* chooses Helvetica
+	first, 	but if no Helvetica available in browser, will use
+	Arial and if 
+	no Arial, will use sans-serif */
+}
+
+.main {
+	width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+	background: rgba(255,255,255,0.7); /* Can only apply
+	translucency with RGB colours not with Hex colours*/
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 span {
+	background: rgba(255,255,255,0.2);
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h3 {
+	cursor: pointer;
+}
+
+h3:hover {
+	text-decoration: underline;
+}
+
+h3:after {
+	content: " +";
+}
+
+.open:after {
+	content: " -";
+}
+
+
+img {
+	border: 10px dotted #bada55;
+	border-radius: 200px/50px 0 50% 50px;
+	margin: 0 auto;
+	display: block;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.4;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-weight: normal;
+}
+
+/* a:hover is a pseudo class for when your cursor
+hovers over the text.  a:focus is a pseudo class
+for when you tab between elements on a web page.
+NB commas are used for lists (i.e. I want to affect
+this thing and this thing), semi-colons are for
+separate commands */
+a:hover, 
+a:focus {
+	outline: none;
+	text-decoration: underline;
+	color: blue;
+	font-weight: bold;
+}
