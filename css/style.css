@@ -1,6 +1,6 @@
 
 body {
-	background-image: url(../images/stag.jpg); /* the "../" tells
+	background-image: url(../images/stag.JPG); /* the "../" tells
 	the code to go back out of the CSS folder to the parent
 	folder and then it looks for the "images" folder */
 	background-size: cover; /* cover is a new term in CSS
