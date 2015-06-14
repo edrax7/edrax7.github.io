@@ -1,5 +1,5 @@
 // Commenting out things in JS you can either use "//" or "/*   */"
-
+/*
 function askQuestions() {
 
 var firstName = prompt("What is your first name?");
@@ -19,9 +19,9 @@ $(function() {
 	$("img").on("click", askQuestions);
 });
 
+*/
 
 
-/*
 
 //below is code for throwing up name and age boxes. The "prompt" command puts up a prompt box on the web page to capture data
 var firstName = prompt("What is your first name?");
